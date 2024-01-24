@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.container {
+    width: 70%;
+    margin-bottom: 20%;
+}
+
+.container>h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+li {
+    padding: 10px 0;
+    background: #eee;
+    border-bottom: 1px solid;
+}
+
+.Questions {
+    cursor: pointer;
+}
+
+.Asked {
+    padding: 10px 20px;
+    display: none;
+    background: #adabab;
+
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
